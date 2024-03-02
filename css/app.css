@@ -159,11 +159,14 @@ footer {
 .footer-imagen {
     max-width: 100%; 
     margin-bottom: 20px; 
-    border-bottom: 2px solid #696969;
 }
 
 .footer-imagen-div{
-    width: 270px;
+    width: 80px;
+}
+
+.footer-texto-div{
+    border-top: 2px solid #696969;
 }
 
 .copyright {
