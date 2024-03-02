@@ -1,0 +1,173 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/*GLOBALES*/
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+    display: block; 
+}
+
+/* Títulos */
+h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+ul, ol {
+    margin-bottom: 10px;
+}
+
+/* Elementos de lista */
+li {
+    margin-bottom: 5px;
+}
+
+/*CABECERA Y NAV*/
+.contenedor {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.contenedor-logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 30px;
+}
+
+.nombre-empresa {
+    color: #FF4500;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nombre-empresa span {
+    color: #2a2a2a;
+    font-size: 14px;
+}
+
+.contenedor-nav {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 5px 0; /* Añade padding arriba*/
+}
+
+.nav-inicial ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-inicial li a {
+    display: block;
+    color: #696969;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.nav-inicial li a:hover {
+    color: #FF4500;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #272521;
+    padding: 32px 0;
+    color: #FFFFFF; /* Texto blanco */
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-div-apartado {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px;
+    border-bottom: 2px solid #696969; 
+}
+
+.footer-div-apartado h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-div-apartado p {
+    color: #FFFFFF; 
+    font-size: 17px;
+}
+
+.footer-imagen {
+    max-width: 100%; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #696969;
+}
+
+.footer-imagen-div{
+    width: 270px;
+}
+
+.copyright {
+    color: #FFFFFF; 
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}

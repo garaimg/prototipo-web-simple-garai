@@ -6,20 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tecnalia - Home</title>
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
         <header>
-            <h1 class="nombre-sitio">
-                Tecnalia - <span>Member of basque research & technology alliance</span>
-            </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
-                    <li><a href="ultimo-proyecto.html">Último Proyecto</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            <div class="contenedor-logo-titulo">
+                <img src="img/tecnalia-logo.jpg" alt="Logotipo tecnalia" class="logo"> <!-- Añade tu logotipo aquí -->
+                <h1 class="nombre-empresa">
+                    Tecnalia <span>- Member of basque research & technology alliance</span>
+                </h1>
+            </div>
+            <div class="contenedor-nav">
+                <nav class="contenedor nav-inicial">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="proyectos.html">Proyectos</a></li>
+                        <li><a href="ultimo-proyecto.html">Último Proyecto</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <div class="hero"></div>
@@ -146,24 +152,39 @@
         <footer>
             <div class="footer-div">
                 <div class="footer-div-apartado">
-                    <h3>Ubicación sede central</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p> 
+                    <div class="footer-imagen-div">
+                        <img src="https://source.unsplash.com/random" alt="Imagen 1" class="footer-imagen"> <!-- Añade tu imagen aquí -->
+                    </div>
+                    <div class="footer-texto-div">
+                        <h3>Ubicación sede central</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p> 
+                    </div>
                 </div>
                 <div class="footer-div-apartado">
-                    <h3>Contacto</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
+                    <div class="footer-imagen-div">
+                        <img src="https://source.unsplash.com/random" alt="Imagen 2" class="footer-imagen"> <!-- Añade tu imagen aquí -->
+                    </div>
+                    <div class="footer-texto-div">
+                        <h3>Contacto</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p> 
+                    </div>
                 </div>
                 <div class="footer-div-apartado">
-                    <h3>Redes sociales</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
+                    <div class="footer-imagen-div">
+                        <img src="https://source.unsplash.com/random" alt="Imagen 3" class="footer-imagen"> <!-- Añade tu imagen aquí -->
+                    </div>
+                    <div class="footer-texto-div">
+                        <h3>Redes Sociales</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>  
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p> 
+                    </div>
                 </div>
             </div>
             <p class="copyright">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                &copy; Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-        </footer>
+        </footer>      
     </body>
 </html>
