@@ -137,16 +137,21 @@ li {
     object-fit: cover;
 }
 
-/*Aside*/
+/*Aside y main*/
+/* CSS Grid */
 .container-main-aside {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px; 
+}
+
+main {
+    grid-column: 1; /* El main ocupa la primera columna */
 }
 
 aside {
-    width: 30%; 
-    margin-left: 20px;
+    grid-column: 2; 
+    margin-left: 20px;/* El aside ocupa la segunda columna */
 }
 
 aside h2{
@@ -160,9 +165,9 @@ aside h2{
 .aside-imagenes {
     display: flex;
     flex-direction: column;
-    justify-content: space-around; 
+    align-items: center; 
+    justify-content: space-around;
 }
-
 
 /*FOOTER*/
 footer {
