@@ -140,6 +140,7 @@ li {
 /*Aside*/
 .container-main-aside {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -151,6 +152,17 @@ aside {
 aside h2{
     text-align: center;
 }
+
+.imagenes-relacionadas p{
+    text-align: center;
+}
+
+.aside-imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
 
 /*FOOTER*/
 footer {
