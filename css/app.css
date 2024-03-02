@@ -138,6 +138,30 @@ li {
     object-fit: cover;
 }
 
+/*Aside*/
+/* Estilo adicional para la posición del aside */
+.container-main-aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    flex: 2; /* Ajusta la proporción según tus preferencias */
+}
+
+aside {
+    width: 30%; /* Ajusta el ancho según tus preferencias */
+}
+
+.ambitos-container {
+    display: flex;
+    flex-wrap: wrap; /* Para que los artículos se envuelvan en varias líneas si no caben en el ancho */
+}
+
+.ambito {
+    width: 100%; /* Ajusta el ancho de cada artículo según tus preferencias */
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus preferencias */
+}
 /*FOOTER*/
 footer {
     background-color: #21201d;
