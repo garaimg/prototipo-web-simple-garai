@@ -124,6 +124,47 @@ li {
     color: #FF4500;
 }
 
+@media (max-width: 768px) {
+    .contenedor-logo-titulo {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        margin: 5px 0;
+    }
+
+    .nombre-empresa {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .nombre-empresa span {
+        font-size: 14px;
+    }
+
+    .contenedor-nav {
+        padding: 10px 0;
+    }
+
+    .nav-inicial ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-inicial li {
+        margin: 5px 0;
+    }
+
+    .nav-inicial li a {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
 /*Hero*/
 .hero {
     position: relative;
@@ -186,6 +227,7 @@ aside h2 {
         margin-top: 20px;
         margin-left: auto; 
         margin-right: auto; 
+        max-width: 100%;
     }
 }
 
@@ -262,4 +304,36 @@ footer {
     font-size: 14px;
     margin-top: 20px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-div-apartado {
+        margin-bottom: 10px;
+        border-bottom: none;
+    }
+
+    .footer-div-apartado h3 {
+        font-size: 18px;
+    }
+
+    .footer-div-apartado p {
+        font-size: 16px;
+    }
+
+    .footer-imagen-div {
+        margin-bottom: 10px;
+    }
+
+    .footer-texto-div li {
+        font-size: 16px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+    }
 }
