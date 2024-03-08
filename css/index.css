@@ -59,6 +59,12 @@ section p {
     .listado-casos-exito div {
         width: 100%;
     }
+    section h2 {
+        font-size: 22px;
+    }
+    section p {
+        font-size: 17px;
+    }
 }
 
 .grid-container {
