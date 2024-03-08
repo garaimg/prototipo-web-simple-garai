@@ -16,7 +16,6 @@ section p {
     line-height: 1.6;
 }
 
-/* Sección "Principales casos de éxito" */
 .listado-casos-exito {
     display: flex;
     flex-direction: row;
@@ -51,7 +50,6 @@ section p {
     font-size: 16px;
 }
 
-/* Media query para móvil */
 @media (max-width: 768px) {
     .listado-casos-exito {
         flex-direction: column;
@@ -67,6 +65,16 @@ section p {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .ambito {
+        width: 100%;
+    }
 }
 
 .ambito {
