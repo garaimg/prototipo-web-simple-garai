@@ -190,6 +190,7 @@ li {
 
 main {
     grid-column: 1; /* El main ocupa la primera columna */
+    text-align: center;
 }
 
 aside {
