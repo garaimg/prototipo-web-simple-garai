@@ -1,1 +1,109 @@
 /*Archivo css específico para la página index.html*/
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #343a40;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #6c757d;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Sección "Principales casos de éxito" */
+.listado-casos-exito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.listado-casos-exito div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.listado-casos-exito div:hover {
+    transform: translateY(-5px);
+}
+
+.listado-casos-exito img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.listado-casos-exito p {
+    color: #495057;
+    font-size: 16px;
+}
+
+/* Media query para móvil */
+@media (max-width: 768px) {
+    .listado-casos-exito {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listado-casos-exito div {
+        width: 100%;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.ambito {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ambito:nth-child(odd) {
+    background-color: #ffead5;
+}
+
+.ambito:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.ambito:hover {
+    transform: translateY(-5px);
+}
+
+.ambito img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.info-ambito h3 {
+    color: #343a40;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-ambito p {
+    color: #495057;
+    font-size: 16px;
+}

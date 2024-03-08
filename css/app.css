@@ -9,7 +9,7 @@ html {
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 img{
@@ -144,7 +144,7 @@ li {
 /* CSS Grid */
 .container-main-aside {
     display: grid;
-    grid-template-columns: 4fr 1fr; 
+    grid-template-columns: 5fr 1fr; 
     gap: 20px; 
 }
 
@@ -155,13 +155,18 @@ main {
 aside {
     grid-column: 2; /* El aside ocupa la segunda columna */
     margin-left: 20px;
+    max-width: 300px; /* Ajusta el ancho máximo del aside según tus necesidades */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 136, 0, 0.3);
 }
 
-aside h2{
+aside h2 {
     text-align: center;
+    color: #333; /* Cambia el color del texto del encabezado */
 }
 
-.imagenes-relacionadas p{
+.imagenes-relacionadas p {
     text-align: center;
 }
 
@@ -170,6 +175,25 @@ aside h2{
     flex-direction: column;
     align-items: center; 
     justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-column: 1; 
+    }
+
+    aside {
+        grid-column: 1; 
+        margin-top: 20px;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
+
+/* Ajuste del tamaño de las imágenes */
+.imagenes-relacionadas img {
+    max-width: 100%;
+    height: auto;
 }
 
 /*FOOTER*/
@@ -212,26 +236,26 @@ footer {
     margin-bottom: 20px; 
 }
 
-.footer-imagen-div{
+.footer-imagen-div {
     width: 80px;
 }
 
-.footer-texto-div{
+.footer-texto-div {
     border-top: 2px solid #696969;
 }
 
-.footer-texto-div li{
+.footer-texto-div li {
     text-align: left;
+    font-size: 17px;
 }
 
-.footer-texto-div a{
+.footer-texto-div a {
     color: #FFFFFF; 
     text-decoration: underline;
 }
 
 #links-redes {
     text-align: left;
-
 }
 
 .copyright {
