@@ -228,6 +228,7 @@ aside h2 {
         margin-left: auto; 
         margin-right: auto; 
         max-width: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -323,6 +324,7 @@ footer {
 
     .footer-div-apartado p {
         font-size: 16px;
+        margin-left: 15px;
     }
 
     .footer-imagen-div {
