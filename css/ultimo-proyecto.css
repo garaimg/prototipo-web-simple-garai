@@ -1,4 +1,5 @@
 /*Archivo css específico para la página ultimo-proyecto.html*/
+/*Secciones*/
 section {
     padding: 20px;
     text-align: center;
@@ -13,9 +14,7 @@ section h2 {
 /* Estilos para la tabla */
 table {
     width: 100%;
-    border-collapse: collapse;
     margin-bottom: 20px;
-    overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -33,12 +32,12 @@ tbody td {
 
 tfoot td {
     padding: 15px;
-    background-color: #f8f9fa;
+    background-color: rgba(255, 140, 0, 0.2);
     font-weight: bold;
 }
 
 tbody td, tfoot td {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(155, 22, 22, 0.1);
     border-radius: 8px;
 }
 
@@ -61,7 +60,7 @@ tbody td:hover {
 }
 
 .imagenes-proyecto img {
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 8px;
 }
@@ -77,4 +76,30 @@ tbody td:hover {
     color: #666;
     font-size: 16px;
     line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 22px;
+    }
+
+    section p {
+        font-size: 17px;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    thead th, tbody td, tfoot td {
+        padding: 10px;
+    }
+    
+    .imagenes-proyecto{
+        flex-direction: column;
+    }
+    
+    .imagenes-proyecto img {
+        width: 100%;
+    }
 }
