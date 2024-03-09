@@ -1,0 +1,80 @@
+/*Archivo css específico para la página ultimo-proyecto.html*/
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #343a40;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+thead th {
+    background-color: #FF4500;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+tbody td {
+    padding: 15px;
+}
+
+tfoot td {
+    padding: 15px;
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+tbody td, tfoot td {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+tbody td:hover {
+    background-color: #feece0;
+}
+
+/* Estilos para las imágenes del proyecto */
+.img-proyecto h2 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.imagenes-proyecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagenes-proyecto img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para la descripción del proyecto */
+.descripcion-proyecto h2 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.descripcion-proyecto p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
