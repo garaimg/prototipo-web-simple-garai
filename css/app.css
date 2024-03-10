@@ -4,7 +4,9 @@ html {
     font-size: 62.5%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -55,7 +57,8 @@ a:hover {
 }
 
 /* Listas */
-ul, ol {
+ul,
+ol {
     margin-bottom: 1rem;
 }
 
@@ -101,7 +104,8 @@ li {
 .contenedor-nav {
     background-color: #FFFFFF;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
-    padding: 0.5rem 0; /* Añade padding arriba*/
+    padding: 0.5rem 0;
+    /* Añade padding arriba*/
 }
 
 .nav-inicial ul {
@@ -192,12 +196,14 @@ li {
 }
 
 main {
-    grid-column: 1; /* El main ocupa la primera columna */
+    grid-column: 1;
+    /* El main ocupa la primera columna */
     text-align: center;
 }
 
 aside {
-    grid-column: 2; /* El aside ocupa la segunda columna */
+    grid-column: 2;
+    /* El aside ocupa la segunda columna */
     margin-left: 2rem;
     max-width: 30rem;
     padding: 2rem;
@@ -305,7 +311,7 @@ footer {
 }
 
 .copyright {
-    color: #FFFFFF; 
+    color: #FFFFFF;
     font-size: 1.4rem;
     margin-top: 2rem;
     text-align: center;
