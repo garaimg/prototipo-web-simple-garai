@@ -1,44 +1,45 @@
-/*Archivo css específico para la página ultimo-proyecto.html*/
-/*Secciones*/
+/* Archivo css específico para la página ultimo-proyecto.html */
+/* Secciones */
 section {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
 }
 
 section h2 {
     color: #343a40;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 /* Estilos para la tabla */
 table {
     width: 100%;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
 }
 
 thead th {
     background-color: #FF4500;
     color: #fff;
-    padding: 15px;
-    font-size: 20px;
+    padding: 1.5rem;
+    font-size: 2rem;
 }
 
 tbody td {
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 tfoot td {
-    padding: 15px;
+    padding: 1.5rem;
     background-color: rgba(255, 140, 0, 0.2);
     font-weight: bold;
 }
 
-tbody td, tfoot td {
-    box-shadow: 0 0 10px rgba(155, 22, 22, 0.1);
-    border-radius: 8px;
+tbody td,
+tfoot td {
+    box-shadow: 0 0 1rem rgba(155, 22, 22, 0.1);
+    border-radius: 0.8rem;
 }
 
 tbody td:hover {
@@ -48,57 +49,59 @@ tbody td:hover {
 /* Estilos para las imágenes del proyecto */
 .img-proyecto h2 {
     color: #343a40;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 .imagenes-proyecto {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .imagenes-proyecto img {
-    width: 400px;
+    width: 25rem;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0.8rem;
 }
 
 /* Estilos para la descripción del proyecto */
 .descripcion-proyecto h2 {
     color: #343a40;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 .descripcion-proyecto p {
     color: #666;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.6;
 }
 
 @media (max-width: 768px) {
     section h2 {
-        font-size: 22px;
+        font-size: 2.2rem;
     }
 
     section p {
-        font-size: 17px;
+        font-size: 1.7rem;
     }
-    
+
     table {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
-    
-    thead th, tbody td, tfoot td {
-        padding: 10px;
+
+    thead th,
+    tbody td,
+    tfoot td {
+        padding: 1rem;
     }
-    
-    .imagenes-proyecto{
+
+    .imagenes-proyecto {
         flex-direction: column;
     }
-    
+
     .imagenes-proyecto img {
         width: 100%;
     }

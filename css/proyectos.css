@@ -1,48 +1,49 @@
-/*Archivo css específico para la página proyectos.html*/
+/* Archivo css específico para la página proyectos.html */
+
 /* Sección "Nuestros proyectos" */
 section {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
 }
 
 section h2 {
     color: #343a40;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 section p {
     color: #666;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.6;
 }
 
 /* Sección "Galería de Proyectos" */
 .galeria-proyectos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 2rem;
     justify-content: center;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .proyecto {
     background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
 .proyecto:hover {
-    transform: translateY(-5px);
+    transform: translateY(-0.5rem);
 }
 
 .proyecto img {
     width: 100%;
     height: auto;
-    border-radius: 15px;
-    margin-bottom: 15px;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
     object-fit: cover;
 }
 
@@ -52,36 +53,36 @@ section p {
 
 .info-proyecto h3 {
     color: #FF4500;
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
 }
 
 .info-proyecto p {
     color: #495057;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.4;
 }
 
 @media (max-width: 768px) {
     .galeria-proyectos {
-        grid-template-columns: repeat(1, minmax(300px, 1fr));
+        grid-template-columns: repeat(1, minmax(30rem, 1fr));
     }
 
     .proyecto {
-        padding: 15px;
+        padding: 1.5rem;
     }
 
     .info-proyecto h3 {
-        font-size: 20px;
+        font-size: 2rem;
     }
 
     .info-proyecto p {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
     section h2 {
-        font-size: 22px;
+        font-size: 2.2rem;
     }
     section p {
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 }

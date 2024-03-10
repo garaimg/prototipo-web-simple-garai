@@ -1,18 +1,18 @@
 /*Archivo css específico para la página index.html*/
 section {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
 }
 
 section h2 {
     color: #343a40;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
 }
 
 section p {
     color: #6c757d;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.6;
 }
 
@@ -20,34 +20,34 @@ section p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .listado-casos-exito div {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    width: 300px;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 30rem;
     text-align: left;
     transition: transform 0.3s ease-in-out;
 }
 
 .listado-casos-exito div:hover {
-    transform: translateY(-5px);
+    transform: translateY(-0.5rem);
 }
 
 .listado-casos-exito img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 
 .listado-casos-exito p {
     color: #495057;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 @media (max-width: 768px) {
@@ -60,17 +60,17 @@ section p {
         width: 100%;
     }
     section h2 {
-        font-size: 22px;
+        font-size: 2.2rem;
     }
     section p {
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
+    gap: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -85,9 +85,9 @@ section p {
 
 .ambito {
     background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
     text-align: left;
     transition: transform 0.3s ease-in-out;
 }
@@ -101,23 +101,23 @@ section p {
 }
 
 .ambito:hover {
-    transform: translateY(-5px);
+    transform: translateY(-0.5rem);
 }
 
 .ambito img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 
 .info-ambito h3 {
     color: #343a40;
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .info-ambito p {
     color: #495057;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
