@@ -98,10 +98,12 @@ section p {
     transition: transform 0.3s ease-in-out;
 }
 
+/* odd, hijos impares, sacado de https://www.w3schools.com/cssref/sel_nth-child.php */
 .ambito:nth-child(odd) {
     background-color: #ffead5;
 }
 
+/* even, hijos pares, sacado de https://www.w3schools.com/cssref/sel_nth-child.php */
 .ambito:nth-child(even) {
     background-color: #ffffff;
 }
