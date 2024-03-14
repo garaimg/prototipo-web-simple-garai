@@ -28,6 +28,7 @@ section p {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    /*Sombreado de caja. Encontrado en https://www.w3schools.com/css/css3_shadows_box.asp */
     margin: 1rem;
     width: 30rem;
     text-align: left;
@@ -36,6 +37,8 @@ section p {
 
 .listado-casos-exito div:hover {
     transform: translateY(-0.5rem);
+    /*Transición, mueve la coordenada Y. Encontrada en https://www.w3schools.com/css/css3_2dtransforms.asp */
+
 }
 
 .listado-casos-exito img {
@@ -90,6 +93,7 @@ section p {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    /*Sombreado de caja. Encontrado en https://www.w3schools.com/css/css3_shadows_box.asp */
     text-align: left;
     transition: transform 0.3s ease-in-out;
 }
@@ -104,6 +108,8 @@ section p {
 
 .ambito:hover {
     transform: translateY(-0.5rem);
+    /*Transición, mueve la coordenada Y. Encontrada en https://www.w3schools.com/css/css3_2dtransforms.asp */
+
 }
 
 .ambito img {

@@ -24,6 +24,7 @@ section p {
     padding: 3rem;
     border-radius: 1.5rem;
     box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+    /*Sombreado de caja. Encontrado en https://www.w3schools.com/css/css3_shadows_box.asp */
     margin-left: 3rem;
 }
 
@@ -82,6 +83,7 @@ textarea {
     transition: border-color 0.3s ease-in-out;
 }
 
+/* CSS :focus Selector encontrado en https://www.w3schools.com/cssref/sel_focus.php , sirve para que cuando se selecciona el input ocurra la transición */
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus,
@@ -97,7 +99,6 @@ input[type="submit"] {
     padding: 1.2rem 3rem;
     border-radius: 0.8rem;
     font-size: 1.6rem;
-    cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 

@@ -22,6 +22,7 @@ section p {
 .galeria-proyectos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    /* el navegador debe crear automáticamente tantas columnas como sea posible en el contenedor, dependiendo del tamaño disponible. */
     gap: 2rem;
     justify-content: center;
     padding: 2rem;
@@ -32,11 +33,14 @@ section p {
     padding: 2rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    /*Sombreado de caja. Encontrado en https://www.w3schools.com/css/css3_shadows_box.asp */
     transition: transform 0.3s ease-in-out;
 }
 
 .proyecto:hover {
     transform: translateY(-0.5rem);
+    /*Transición, mueve la coordenada Y. Encontrada en https://www.w3schools.com/css/css3_2dtransforms.asp */
+
 }
 
 .proyecto img {
@@ -66,6 +70,7 @@ section p {
 @media (max-width: 768px) {
     .galeria-proyectos {
         grid-template-columns: repeat(1, minmax(30rem, 1fr));
+        /* Todo en una misma columna */
     }
 
     .proyecto {

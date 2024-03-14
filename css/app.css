@@ -71,6 +71,7 @@ li {
 .contenedor {
     max-width: 120rem;
     margin-inline: auto;
+    /*margin at start and end is auto. Encontrado en https://www.w3schools.com/cssref/css_pr_margin-inline.php */
 }
 
 .contenedor-logo-titulo {
@@ -104,6 +105,7 @@ li {
 .contenedor-nav {
     background-color: #FFFFFF;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    /*Sombreado de caja. Encontrado en https://www.w3schools.com/css/css3_shadows_box.asp */
     padding: 0.5rem 0;
     /* Añade padding arriba*/
 }
@@ -209,6 +211,8 @@ aside {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 1.5rem rgba(255, 136, 0, 0.3);
+    /*Sombreado de caja. Encontrado en https://www.w3schools.com/css/css3_shadows_box.asp */
+
 }
 
 aside h2 {
